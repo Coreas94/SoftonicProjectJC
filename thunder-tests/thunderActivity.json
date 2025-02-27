@@ -1,0 +1,14 @@
+[
+    {
+        "_id": "051eb933-a86e-409e-9f15-73da188a1e34",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8000/api/apps/21824",
+        "url": "http://localhost:8000/api/apps/3075333",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2025-02-26T23:26:20.436Z",
+        "modified": "2025-02-26T23:39:38.528Z",
+        "headers": []
+    }
+]
