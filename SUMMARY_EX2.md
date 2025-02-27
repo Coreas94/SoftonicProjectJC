@@ -35,6 +35,8 @@ Limit options for each file:
 ## **4. How to Run the Code and Tests?**
 - **Run the command:**
 
+**Note: To check the operation, you must verify that the `catalog_publisher-url.csv` and `source_publiser-url.csv` files exist within `storage/app/dumps` since that is how everything will work and the output file is created in that same path.**
+
 Command to apply limits:
 ```bash
   php artisan detect:duplicatesphp source_publisher-url.csv catalog_publisher-url.csv output.csv --limit-source=1000 --limit-catalog=1000
